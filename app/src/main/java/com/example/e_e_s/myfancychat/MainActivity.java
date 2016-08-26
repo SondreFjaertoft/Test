@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity
         writeText = (EditText) findViewById(R.id.editText1);
         textView1 =  (TextView) findViewById(R.id.textView1);
         textView1.setText(writeText.getText());
+        writeText.setText("");
     }
 
 }
